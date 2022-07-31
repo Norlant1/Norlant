@@ -1,0 +1,40 @@
+@import '../utils/';
+
+
+.content {
+  
+  margin-top: 9em;
+  
+
+  .content-first{
+    font-size: 2rem;
+     
+    span{
+      color: $secondary-color;
+    }
+  }
+
+  .content-second {
+    margin: 500px 0px 500px 0;
+    font-size: 2rem;
+    
+    
+    
+  }
+
+}
+
+
+.content-first, .main-section {
+
+  opacity: 0;
+  transition: 1s;
+  &.test {
+
+    opacity: 1;
+  }
+
+}
+
+
+ 

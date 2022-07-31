@@ -1,0 +1,28 @@
+@import '../utils/';
+@import '../content/';
+
+
+
+@include responsive{
+  
+  .mainmenu-menu {
+    display: none;
+  }
+ 
+}
+
+@include responsive2{
+  
+ 
+  .hamburger-line {
+    display: none;
+  }
+}
+
+
+
+  
+
+ 
+   
+
