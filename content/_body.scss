@@ -17,8 +17,8 @@
  
 
   .main-section {
-   
-  margin-top: 300px;
+  margin-top: 400px;
+  width: 100%;
 
   @include responsive2 {
     @include flex(row,center,center);
@@ -38,6 +38,7 @@
      
     }
     #body-content {
+  
       transform: translateX(-100%);
       transition: 1s;
         opacity: 0;
@@ -45,7 +46,7 @@
     }
 
     #body-content2 {
-        transform: translateX(100%);
+      transform: translateX(10%);
         transition: 1s;
         opacity: 0;
 
