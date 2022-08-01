@@ -60,6 +60,16 @@
     cursor: pointer;
     display: flex;
     margin-left: 90%;
+   
+    @include responsive2{
+
+      display: none; 
+   
+  }
+  
+    
+    
+    
   
 
     
@@ -67,15 +77,46 @@
 
 
   
-   &-line{
+   &-line1, &-line2, &-line3{
 
     background-color: white;
     width: 3em;
-    height: 3px;
+    height: 0.2em;
     border-radius: 10px;
     margin-bottom: 1em;
+    transition: $alltransition;
+ 
+   }
+   
+ 
+
+
+   &-line1.animate {
+    transform: translate(-5px, 15px) rotate(45deg) ;
+
+  
+    
+   }
+
+   &-line2.animate {
+    
+    opacity: 0;
+    
    
    }
+
+   &-line3.animate {
+    transform: translate(-5px, -23px) rotate(-45deg) ;
+    
+   
+   }
+
+
+
+
+
+
+
   }
   
 }
