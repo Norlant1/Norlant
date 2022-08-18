@@ -60,13 +60,17 @@
     cursor: pointer;
     display: flex;
     margin-left: 90%;
-   
+    transition: $alltransition;
     @include responsive2{
 
       display: none; 
    
   }
   
+
+  &.rotate {
+    transform: rotate(360deg);
+  }
     
     
     
@@ -92,7 +96,7 @@
 
 
    &-line1.animate {
-    transform: translate(-5px, 15.5px) rotate(45deg) ;
+    transform: translate(-5px, 16px) rotate(45deg) ;
 
   
     

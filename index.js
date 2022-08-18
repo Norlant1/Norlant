@@ -69,5 +69,5 @@ menuanimation.forEach(menu => {
 })
 
   menubox.classList.toggle("showbar");
- 
+  this.classList.toggle("rotate");
 }
